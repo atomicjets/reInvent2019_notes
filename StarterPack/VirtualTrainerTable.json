@@ -1,0 +1,64 @@
+{
+    "VirtualTrainerTable": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "questions": {
+                        "S": "assets"
+                    },
+                    "answers": {
+                        "S": "The assets panel in Sumerian collects shareable assets in the scene. When you add an asset to a scene, Sumerian automatically adds it to a default pack in the assets panel"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "questions": {
+                        "S": "lex"
+                    },
+                    "answers": {
+                        "S": "Amazon Lex provides an easy-to-use console to guide you through the process of creating your own chatbot in minutes, building conversational interfaces into your applications. You supply just a few example phrases and Amazon Lex builds a complete natural language model through which your user can interact using voice and text, to ask questions, get answers, and complete sophisticated tasks"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "questions": {
+                        "S": "sumerian"
+                    },
+                    "answers": {
+                        "S": "Amazon Polly provides dozens of languages and a wide selection of natural-sounding male and female voices. Amazon Polly's fluid pronunciation of text enables you to deliver high-quality voice output for a global audience"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "questions": {
+                        "S": "polly"
+                    },
+                    "answers": {
+                        "S": "Amazon Sumerian lets you create and run virtual reality (VR), augmented reality (AR), and 3D applications quickly and easily without requiring any specialized programming or 3D graphics expertise."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "questions": {
+                        "S": "entities"
+                    },
+                    "answers": {
+                        "S": "Entities are a kind of container in Sumerian that you use to collect and organize assets in your scene. For example, when you add a 3D model to your scene, the editor splits it into mesh, texture, and animation assets and assigns them to an entity with the corresponding Sumerian geometry, material, and animation components. Your scene can contain up to 1,000 entities."
+                    }
+                }
+            }
+        }
+    ]
+}
